@@ -5,9 +5,9 @@ function getMovie(searchTerm, apiKey) {
 
   axios.get(queryURL)
     .then(function (response) {
-      console.log(`movie response data:\n ${response.data}`);
+      // console.log(`movie response data:\n ${response.data}`);
       printMovieResults(response.data);
-      
+
       return response.data;
     })
     .catch(function (error) {
