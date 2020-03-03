@@ -1,6 +1,6 @@
 {
   "name": "@jcstang/get-movie",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Gets api movie data",
   "license": "MIT",
   "repository": "jcstang/get-movie",
