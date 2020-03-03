@@ -1,7 +1,4 @@
 const axios = require('axios');
-
-`http://www.omdbapi.com/?t=${searchTerm}&y=&plot=short&apikey=trilogy`
-
 function getMovie(searchTerm, apiKey) {
   searchTerm = encodeURIComponent(searchTerm.trim());
   let queryURL = `http://www.omdbapi.com/?t=${searchTerm}&y=&plot=short&apikey=${apiKey}`;
